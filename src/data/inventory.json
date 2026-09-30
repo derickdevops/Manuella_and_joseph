@@ -1,0 +1,29 @@
+{
+  "ingredients": [
+    {
+      "name": "Ribeye",
+      "quantity": 18,
+      "unit": "cuts",
+      "status": "ok"
+    },
+    {
+      "name": "Fresh snapper",
+      "quantity": 7,
+      "unit": "portions",
+      "status": "low"
+    },
+    {
+      "name": "Plantain",
+      "quantity": 24,
+      "unit": "pieces",
+      "status": "ok"
+    },
+    {
+      "name": "Coconut milk",
+      "quantity": 9,
+      "unit": "liters",
+      "status": "ok"
+    }
+  ]
+}
+

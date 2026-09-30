@@ -1,0 +1,20 @@
+{
+  "reviews": [
+    {
+      "guest": "Amara",
+      "rating": 5,
+      "comment": "The snapper was bright, delicate, and perfectly balanced."
+    },
+    {
+      "guest": "Jonas",
+      "rating": 4,
+      "comment": "Great room energy and thoughtful service."
+    },
+    {
+      "guest": "Priya",
+      "rating": 5,
+      "comment": "Dessert was a quiet masterpiece."
+    }
+  ]
+}
+

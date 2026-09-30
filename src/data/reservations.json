@@ -1,0 +1,26 @@
+{
+  "reservations": [
+    {
+      "guest": "Maya Chen",
+      "time": "18:30",
+      "partySize": 2,
+      "note": "Anniversary seating",
+      "status": "confirmed"
+    },
+    {
+      "guest": "Daniel Okafor",
+      "time": "19:15",
+      "partySize": 6,
+      "note": "Chef counter",
+      "status": "arrived"
+    },
+    {
+      "guest": "Sophia N.",
+      "time": "20:00",
+      "partySize": 4,
+      "note": "Window table preferred",
+      "status": "confirmed"
+    }
+  ]
+}
+

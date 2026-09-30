@@ -1,0 +1,23 @@
+{
+  "tickets": [
+    {
+      "station": "Grill",
+      "item": "Pepper-Crusted Ribeye",
+      "elapsedMinutes": 9,
+      "priority": "high"
+    },
+    {
+      "station": "Saute",
+      "item": "Coconut Lemongrass Snapper",
+      "elapsedMinutes": 6,
+      "priority": "normal"
+    },
+    {
+      "station": "Pastry",
+      "item": "Dark Chocolate Mousse",
+      "elapsedMinutes": 3,
+      "priority": "normal"
+    }
+  ]
+}
+

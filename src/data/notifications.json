@@ -1,0 +1,17 @@
+{
+  "events": [
+    {
+      "channel": "SMS",
+      "message": "Reservation reminder sent to Maya Chen for 18:30."
+    },
+    {
+      "channel": "Email",
+      "message": "Receipt sent for order ORD-1048."
+    },
+    {
+      "channel": "Push",
+      "message": "Table ready notification sent to Daniel Okafor."
+    }
+  ]
+}
+

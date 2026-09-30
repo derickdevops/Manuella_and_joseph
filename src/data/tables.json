@@ -1,0 +1,30 @@
+{
+  "tables": [
+    {
+      "number": 1,
+      "seats": 2,
+      "status": "available"
+    },
+    {
+      "number": 2,
+      "seats": 4,
+      "status": "occupied"
+    },
+    {
+      "number": 4,
+      "seats": 4,
+      "status": "occupied"
+    },
+    {
+      "number": 8,
+      "seats": 6,
+      "status": "occupied"
+    },
+    {
+      "number": 11,
+      "seats": 2,
+      "status": "cleaning"
+    }
+  ]
+}
+
