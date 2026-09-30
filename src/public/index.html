@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manuella &amp; Joseph Restaurant Platform</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Microservice restaurant platform</p>
+        <h1>Manuella &amp; Joseph</h1>
+      </div>
+      <div class="status-pill" id="status">Loading services</div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Fine dining operations, shipped on Kubernetes</p>
+          <h2>Manuella &amp; Joseph brings fine dining operations to Kubernetes.</h2>
+          <p>
+            Explore live data from menu, orders, reservations, tables, kitchen, inventory,
+            payments, loyalty, notifications, and reviews.
+          </p>
+          <div class="hero-actions">
+            <a href="#services">Explore services</a>
+            <a href="#operations" class="secondary">View operations</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <span>Dinner rush</span>
+          <strong id="hero-metric">--</strong>
+          <small>active tickets across dining room and kitchen services</small>
+        </div>
+      </section>
+
+      <section class="service-strip" id="services"></section>
+
+      <section class="service-detail-shell" id="service-detail"></section>
+
+      <section class="section-grid" id="operations">
+        <article class="panel wide" id="menu">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Menu service</p>
+              <h3>Chef recommendations</h3>
+            </div>
+            <span id="menu-count">-- items</span>
+          </div>
+          <div class="menu-grid" id="menu-grid"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Interactive order</p>
+              <h3>Build a table order</h3>
+            </div>
+          </div>
+          <form class="control-form" id="order-form">
+            <label>
+              Table
+              <input id="order-table" type="number" min="1" max="20" value="4" />
+            </label>
+            <div class="cart-list" id="cart-list"></div>
+            <button type="submit">Send order</button>
+          </form>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Reservation desk</p>
+              <h3>Create a booking</h3>
+            </div>
+          </div>
+          <form class="control-form" id="reservation-form">
+            <label>
+              Guest
+              <input id="reservation-guest" type="text" value="Derick" />
+            </label>
+            <label>
+              Time
+              <input id="reservation-time" type="time" value="19:30" />
+            </label>
+            <label>
+              Party size
+              <input id="reservation-party" type="number" min="1" max="12" value="2" />
+            </label>
+            <label>
+              Note
+              <input id="reservation-note" type="text" value="Window table preferred" />
+            </label>
+            <button type="submit">Book table</button>
+          </form>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Orders service</p>
+              <h3>Recent orders</h3>
+            </div>
+          </div>
+          <div class="stack-list" id="orders-list"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Reservations service</p>
+              <h3>Tonight's bookings</h3>
+            </div>
+          </div>
+          <div class="stack-list" id="reservations-list"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Kitchen service</p>
+              <h3>Kitchen queue</h3>
+            </div>
+            <button class="icon-button" id="advance-kitchen" type="button">Advance</button>
+          </div>
+          <div class="stack-list" id="kitchen-list"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Inventory service</p>
+              <h3>Stock watch</h3>
+            </div>
+          </div>
+          <div class="stack-list" id="inventory-list"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Tables service</p>
+              <h3>Dining room</h3>
+            </div>
+            <select id="table-filter">
+              <option value="all">All</option>
+              <option value="available">Available</option>
+              <option value="occupied">Occupied</option>
+              <option value="cleaning">Cleaning</option>
+            </select>
+          </div>
+          <div class="table-grid" id="table-grid"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Reviews service</p>
+              <h3>Guest feedback</h3>
+            </div>
+          </div>
+          <form class="control-form" id="review-form">
+            <label>
+              Guest
+              <input id="review-guest" type="text" value="Derick" />
+            </label>
+            <label>
+              Rating
+              <input id="review-rating" type="number" min="1" max="5" value="5" />
+            </label>
+            <label>
+              Comment
+              <input id="review-comment" type="text" value="The service dashboard feels alive." />
+            </label>
+            <button type="submit">Add review</button>
+          </form>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Guest intelligence</p>
+              <h3>Loyalty, reviews, and notifications</h3>
+            </div>
+          </div>
+          <div class="insight-grid" id="insight-grid"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

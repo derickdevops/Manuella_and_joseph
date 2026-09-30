@@ -1,0 +1,23 @@
+{
+  "settlements": [
+    {
+      "id": "PAY-7781",
+      "method": "card",
+      "amount": 124.5,
+      "status": "captured"
+    },
+    {
+      "id": "PAY-7782",
+      "method": "wallet",
+      "amount": 88,
+      "status": "captured"
+    },
+    {
+      "id": "PAY-7783",
+      "method": "card",
+      "amount": 172,
+      "status": "authorized"
+    }
+  ]
+}
+

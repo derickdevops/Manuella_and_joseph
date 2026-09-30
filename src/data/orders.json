@@ -1,0 +1,23 @@
+{
+  "orders": [
+    {
+      "id": "ORD-1048",
+      "table": 4,
+      "items": ["Pepper-Crusted Ribeye", "Charred Plantain Salad"],
+      "status": "firing"
+    },
+    {
+      "id": "ORD-1049",
+      "table": 8,
+      "items": ["Coconut Lemongrass Snapper", "Dark Chocolate Mousse"],
+      "status": "plated"
+    },
+    {
+      "id": "ORD-1050",
+      "table": 2,
+      "items": ["Smoked Jollof Arancini", "Coconut Lemongrass Snapper"],
+      "status": "queued"
+    }
+  ]
+}
+

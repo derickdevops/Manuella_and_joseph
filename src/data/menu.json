@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "name": "Smoked Jollof Arancini",
+      "description": "Crisp rice bites with tomato suya aioli and herb oil.",
+      "price": 14
+    },
+    {
+      "name": "Charred Plantain Salad",
+      "description": "Avocado, lime greens, toasted peanuts, and ginger vinaigrette.",
+      "price": 16
+    },
+    {
+      "name": "Pepper-Crusted Ribeye",
+      "description": "Dry-aged ribeye with cassava gratin and green pepper jus.",
+      "price": 42
+    },
+    {
+      "name": "Coconut Lemongrass Snapper",
+      "description": "Pan-roasted snapper with coconut broth and market vegetables.",
+      "price": 34
+    },
+    {
+      "name": "Dark Chocolate Mousse",
+      "description": "Cocoa nib crumble, espresso cream, and sea salt.",
+      "price": 12
+    }
+  ]
+}
+
